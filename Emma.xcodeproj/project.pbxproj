@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027AC34623CBA1A000A53833 /* Langs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027AC34523CBA1A000A53833 /* Langs.swift */; };
+		860A7D97AD7D42DA7A65BA2A /* Pods_Emma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA2F41880A6032F49ED974B /* Pods_Emma.framework */; };
+		FF0ECFF523CB8AE100239C9B /* EmmaBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0ECFF423CB8AE100239C9B /* EmmaBot.swift */; };
+		FF0ECFF723CB8C6600239C9B /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0ECFF623CB8C6600239C9B /* Translator.swift */; };
+		FF0ECFF923CB8D8B00239C9B /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0ECFF823CB8D8B00239C9B /* Speaker.swift */; };
+		FF0ECFFB23CB915B00239C9B /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0ECFFA23CB915B00239C9B /* LanguageSelectionView.swift */; };
+		FF0ECFFF23CB971700239C9B /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0ECFFE23CB971700239C9B /* SpeechRecognizer.swift */; };
+		FFBD074B23CB7EA400504279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD074A23CB7EA400504279 /* AppDelegate.swift */; };
+		FFBD074D23CB7EA400504279 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD074C23CB7EA400504279 /* SceneDelegate.swift */; };
+		FFBD074F23CB7EA400504279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD074E23CB7EA400504279 /* ContentView.swift */; };
+		FFBD075123CB7EA600504279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBD075023CB7EA600504279 /* Assets.xcassets */; };
+		FFBD075423CB7EA600504279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBD075323CB7EA600504279 /* Preview Assets.xcassets */; };
+		FFBD075723CB7EA600504279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBD075523CB7EA600504279 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		027AC34523CBA1A000A53833 /* Langs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Langs.swift; sourceTree = "<group>"; };
+		BDA2F41880A6032F49ED974B /* Pods_Emma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1085DC8119290C921E3518C /* Pods-Emma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emma.debug.xcconfig"; path = "Target Support Files/Pods-Emma/Pods-Emma.debug.xcconfig"; sourceTree = "<group>"; };
+		FE20EE491734396DAB5ADA99 /* Pods-Emma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emma.release.xcconfig"; path = "Target Support Files/Pods-Emma/Pods-Emma.release.xcconfig"; sourceTree = "<group>"; };
+		FF0ECFF423CB8AE100239C9B /* EmmaBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmmaBot.swift; sourceTree = "<group>"; };
+		FF0ECFF623CB8C6600239C9B /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		FF0ECFF823CB8D8B00239C9B /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		FF0ECFFA23CB915B00239C9B /* LanguageSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		FF0ECFFE23CB971700239C9B /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		FFBD074723CB7EA400504279 /* Emma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBD074A23CB7EA400504279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFBD074C23CB7EA400504279 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFBD074E23CB7EA400504279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFBD075023CB7EA600504279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFBD075323CB7EA600504279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFBD075623CB7EA600504279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFBD075823CB7EA600504279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBD074423CB7EA300504279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860A7D97AD7D42DA7A65BA2A /* Pods_Emma.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6AC9CADF1A2ACB0597A8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1085DC8119290C921E3518C /* Pods-Emma.debug.xcconfig */,
+				FE20EE491734396DAB5ADA99 /* Pods-Emma.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		866E06412F7E728F3C34E24E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2F41880A6032F49ED974B /* Pods_Emma.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFBD073E23CB7EA300504279 = {
+			isa = PBXGroup;
+			children = (
+				FFBD074923CB7EA400504279 /* Emma */,
+				FFBD074823CB7EA400504279 /* Products */,
+				7E6AC9CADF1A2ACB0597A8B4 /* Pods */,
+				866E06412F7E728F3C34E24E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBD074823CB7EA400504279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBD074723CB7EA400504279 /* Emma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBD074923CB7EA400504279 /* Emma */ = {
+			isa = PBXGroup;
+			children = (
+				FFBD074A23CB7EA400504279 /* AppDelegate.swift */,
+				FFBD074C23CB7EA400504279 /* SceneDelegate.swift */,
+				FFBD074E23CB7EA400504279 /* ContentView.swift */,
+				FF0ECFF823CB8D8B00239C9B /* Speaker.swift */,
+				FF0ECFF623CB8C6600239C9B /* Translator.swift */,
+				FF0ECFFA23CB915B00239C9B /* LanguageSelectionView.swift */,
+				FF0ECFF423CB8AE100239C9B /* EmmaBot.swift */,
+				FF0ECFFE23CB971700239C9B /* SpeechRecognizer.swift */,
+				FFBD075023CB7EA600504279 /* Assets.xcassets */,
+				FFBD075523CB7EA600504279 /* LaunchScreen.storyboard */,
+				FFBD075823CB7EA600504279 /* Info.plist */,
+				FFBD075223CB7EA600504279 /* Preview Content */,
+				027AC34523CBA1A000A53833 /* Langs.swift */,
+			);
+			path = Emma;
+			sourceTree = "<group>";
+		};
+		FFBD075223CB7EA600504279 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFBD075323CB7EA600504279 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBD074623CB7EA300504279 /* Emma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBD075B23CB7EA600504279 /* Build configuration list for PBXNativeTarget "Emma" */;
+			buildPhases = (
+				F6DBDEB22AC3A42665621C65 /* [CP] Check Pods Manifest.lock */,
+				FFBD074323CB7EA300504279 /* Sources */,
+				FFBD074423CB7EA300504279 /* Frameworks */,
+				FFBD074523CB7EA300504279 /* Resources */,
+				0C1F3B7C7C32329C76F6E658 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emma;
+			productName = Emma;
+			productReference = FFBD074723CB7EA400504279 /* Emma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBD073F23CB7EA300504279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = bnwlkr;
+				TargetAttributes = {
+					FFBD074623CB7EA300504279 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FFBD074223CB7EA300504279 /* Build configuration list for PBXProject "Emma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBD073E23CB7EA300504279;
+			productRefGroup = FFBD074823CB7EA400504279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBD074623CB7EA300504279 /* Emma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBD074523CB7EA300504279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBD075723CB7EA600504279 /* LaunchScreen.storyboard in Resources */,
+				FFBD075423CB7EA600504279 /* Preview Assets.xcassets in Resources */,
+				FFBD075123CB7EA600504279 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1F3B7C7C32329C76F6E658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emma/Pods-Emma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emma/Pods-Emma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emma/Pods-Emma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DBDEB22AC3A42665621C65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBD074323CB7EA300504279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBD074B23CB7EA400504279 /* AppDelegate.swift in Sources */,
+				FF0ECFFF23CB971700239C9B /* SpeechRecognizer.swift in Sources */,
+				FF0ECFF723CB8C6600239C9B /* Translator.swift in Sources */,
+				FF0ECFF523CB8AE100239C9B /* EmmaBot.swift in Sources */,
+				FF0ECFFB23CB915B00239C9B /* LanguageSelectionView.swift in Sources */,
+				027AC34623CBA1A000A53833 /* Langs.swift in Sources */,
+				FF0ECFF923CB8D8B00239C9B /* Speaker.swift in Sources */,
+				FFBD074D23CB7EA400504279 /* SceneDelegate.swift in Sources */,
+				FFBD074F23CB7EA400504279 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFBD075523CB7EA600504279 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBD075623CB7EA600504279 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFBD075923CB7EA600504279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFBD075A23CB7EA600504279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBD075C23CB7EA600504279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1085DC8119290C921E3518C /* Pods-Emma.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Emma/Preview Content\"";
+				DEVELOPMENT_TEAM = T7ST5D3QZ2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Emma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bnwlkr.Emma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFBD075D23CB7EA600504279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE20EE491734396DAB5ADA99 /* Pods-Emma.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Emma/Preview Content\"";
+				DEVELOPMENT_TEAM = T7ST5D3QZ2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Emma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bnwlkr.Emma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBD074223CB7EA300504279 /* Build configuration list for PBXProject "Emma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBD075923CB7EA600504279 /* Debug */,
+				FFBD075A23CB7EA600504279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBD075B23CB7EA600504279 /* Build configuration list for PBXNativeTarget "Emma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBD075C23CB7EA600504279 /* Debug */,
+				FFBD075D23CB7EA600504279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBD073F23CB7EA300504279 /* Project object */;
+}
