@@ -11,7 +11,7 @@ import Alamofire
 
 typealias ISOLanguageCode = String
 
-private let API_KEY = "AIzaSyDhJud9YF0xzotWhHcQJsAf-Df4iFD8HhU"
+private let API_KEY = ""
 
 protocol TranslatorProtocol {
 	static func translate(message: String, from: ISOLanguageCode, to: ISOLanguageCode, resultHandler: @escaping (String) -> ())
